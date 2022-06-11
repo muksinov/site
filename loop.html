@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amogus</title>
+</head>
+<body>
+<script>
+//    let num; do { num = prompt("Введіть число, більше за 100?", 0);
+//     } while (num <= 100 && num!=null); 
+// if (num===null){ 
+//     alert("До побачення!") 
+// }else{ 
+//     alert ("Ваше число: " + num) } 
+
+
+
+
+let numUser; 
+let numX=Math.ceil(Math.random()*100);
+let count=0;
+ do { numUser = prompt("вгадайте число від 0 до 100", 0);
+ count++ 
+if (numUser===null) { 
+alert("Ми чекали від Вас число"); 
+} else if (+numUser>numX) { 
+alert("Ваше число менше"); 
+} else if (+numUse<numX){ 
+alert("Ваше число більше"); 
+} else { 
+alert("Ура!!! Вгадали!!! " +numX +" за спроб у кількості " +count); } 
+} while (numUser != numX && numUser != null); 
+</script>
+</body>
+</html>
